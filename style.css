@@ -474,12 +474,17 @@ input,
 
 input#date,
 input#time {
-    max-width: 268px;
+    max-width: 287px;
     width: 100%;
 }
-
-input#submit {
-    background-color: #c38f48;
+#submit input {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+a#submit {
+    background-color: #af8140;
+    text-align: center;
 }
 #contact img {
     width: 100%;
