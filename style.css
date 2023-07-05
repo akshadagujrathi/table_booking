@@ -120,10 +120,6 @@ li.nav-item {
         margin: 0 auto;
 
     }
-
-    /* ul {
-        flex-direction: column;
-    } */
     header li {
         text-align: center;
     }
@@ -151,9 +147,6 @@ li.nav-item {
         gap: 5px;
     }
 }
-
-
-
 /* Hero */
 #hero {
     background-image: url('./images//hero-img.png');
@@ -560,7 +553,7 @@ iframe {
     height: 300px;
 }
 
-/* Mesia queries */
+/* Media queries */
 @media only screen and (max-width: 1240px) {
     #contact img {
         width: 100%;
@@ -580,21 +573,6 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {
-    
-    /* #menu .row,
-    #contact .row,
-    footer .row {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #menu .col-1 {
-        width: 100%;
-        min-height: 800px;
-        height: 100%;
-        background-size: 100% 100%;
-    } */
-
     footer .col-5 {
         width: 100%;
     }
