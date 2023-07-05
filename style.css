@@ -367,7 +367,7 @@ a.border-bottom:hover:before {
 .menu-desc a.border-bottom {
     font-size: 22px;
 }
-
+/* Services  */
 #services .row {
     flex-direction: column;
 }
@@ -434,7 +434,7 @@ span#flaticon-diet {
 #flaticon-recipe:before {
     content: '\f818';
 }
-
+/*  Contact  */
 #contact {
     opacity: 0.9;
     padding: 100px 50px;
@@ -481,7 +481,9 @@ input#time {
 input#submit {
     background-color: #c38f48;
 }
-
+#contact img {
+    width: 100%;
+}
 /* footer */
 footer .row {
     display: flex;
