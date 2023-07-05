@@ -474,7 +474,7 @@ input,
 
 input#date,
 input#time {
-    max-width: 192px;
+    max-width: 268px;
     width: 100%;
 }
 
