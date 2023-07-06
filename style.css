@@ -204,7 +204,7 @@ a.button:hover {
     border-color: #c8935f;
     /* transition: width 2s linear 1s; */
     transition: background-color 1s;
-    transform: translateY(12px);
+    transform: translateX(12px);
     transition: transform 700ms;
 }
 
