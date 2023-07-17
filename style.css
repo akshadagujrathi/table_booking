@@ -286,7 +286,11 @@ a.border-bottom:hover:before {
     -ms-transform: scaleX(0);
     transform: scaleX(0);
 }
-
+img:hover {
+    transform: scale(0.9, 0.9);
+    filter: grayscale(1);
+    transition: 0.5s ease-in-out;
+}
 /* Menu */
 #menu .row {
     display: flex;
@@ -361,6 +365,12 @@ a.border-bottom:hover:before {
 .menu-desc a.border-bottom {
     font-size: 22px;
 }
+#menu img:hover {
+    transform: unset;
+    filter: grayscale(1);
+    transition: unset;
+}
+
 /* Services  */
 #services .row {
     flex-direction: column;
